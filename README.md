@@ -1,0 +1,2 @@
+# DetekceObjektu
+ SFG
