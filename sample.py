@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 
-name="hand"
+name="org"
 
 pim = Image.open(f'{name}.jpg')
 pro = pim.load()
@@ -15,7 +15,7 @@ anything=[[0]]
 for i in range(pim.size[0]-1):
     for j in range(pim.size[1]-1):
         R,G,B=pro[i,j]
-        if not (R>150 and G>150 and B>150):
+        if not (R>50 and G>50 and B>50):
             pro[i,j] = (256, 0, 0)
 
 for i in range(10, pim.size[0]-11, 20):
