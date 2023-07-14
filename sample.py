@@ -9,6 +9,8 @@ new = nw.load()
 ts = Image.new('RGB', (pim.size[0], pim.size[1]), color = 'white') #vytvoreni noveho obrazku
 test = ts.load()
 
+print(new[0,0])
+
 detect=[]
 anything=[[0]]
 
